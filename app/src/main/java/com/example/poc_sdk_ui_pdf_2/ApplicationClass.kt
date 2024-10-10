@@ -9,7 +9,7 @@ class ApplicationClass : Application() {
         super.onCreate()
 
         /**
-         * Step-3 : initialize Spandan SDK
+         * Step-3 : initialize Spandan SDK in Application Class
          * **/
         SpandanSDK.initializeOffline(
             this,
