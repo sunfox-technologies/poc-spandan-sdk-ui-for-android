@@ -23,16 +23,16 @@ dependencyResolutionManagement {
         maven {
             url = uri("https://maven.pkg.github.com/sunfox-technologies/spandan_ecg_android_sdk")
             credentials {
-                username = System.getenv("GITHUB_USERNAME")
-                password = System.getenv("GITHUB_PACKAGE_ACCESS_TOKEN")
+                username = "<Username>"
+                password = "<Repository Authorisation Token>"
             }
         }
 
         maven {
             url = uri("https://maven.pkg.github.com/sunfox-technologies/spandan_ecg_android_sdk_ui")
             credentials {
-                username = System.getenv("GITHUB_USERNAME")
-                password = System.getenv("GITHUB_PACKAGE_ACCESS_TOKEN")
+                username = "<Username>"
+                password = "<Repository Authorisation Token>"
             }
         }
 

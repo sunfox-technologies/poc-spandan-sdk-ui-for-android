@@ -85,6 +85,10 @@ class MainActivity : AppCompatActivity() {
                     } else {
                         copyStreamToFile(inputStream, file)
                     }
+
+                    runOnUiThread {
+                        binding.testResultTv.text = reportGenerationResult.characteristics.toString()
+                    }
                 }
 
 
